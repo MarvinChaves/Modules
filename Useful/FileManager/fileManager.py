@@ -32,13 +32,14 @@ class File:
 
     def deleteFile(name):
         '''
-
         write the path of the file to delete it
 
         ex:
 
-            File.deleteFile('C:\Users\marvin\Desktop\FileName.txt')
-        
-        '''
+        File.deleteFile(C:/Users/marvi/desktop/file.py)
+
         os.system(f'del /f /a {name}')
-        
+        '''
+    
+    def renameFile(name, newName):
+        os.rename(name, newName)

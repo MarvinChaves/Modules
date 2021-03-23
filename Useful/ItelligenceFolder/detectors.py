@@ -1,4 +1,4 @@
-class Itelligence:
+class Detectors:
     def __init__(self):
         pass
 
